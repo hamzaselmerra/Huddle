@@ -1,0 +1,67 @@
+body{
+background-color: hsl(257, 40%, 49%);
+background-image: url(../images/bg-desktop.svg);
+background-size: cover;
+
+
+}
+nav img{
+    width: 200px;
+    margin: 50px 0 80px 40px;
+
+}
+section{
+display: flex;
+justify-content: space-evenly;
+
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+p{
+    color: rgb(214, 214, 214);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+}
+button{
+    padding: 14px 60px;
+    background-color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    color:hsl(257, 40%, 49%) ;
+    box-shadow: 1px 6px 9px rgba(0, 0, 0, 0.315);
+    cursor: pointer;
+
+}
+footer{
+    display: flex;
+    justify-content: end;
+
+}
+i{
+    font-size: 20px;
+    color: white;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.fb{
+    padding:10px 13px;
+}
+button:hover{
+    background-color:  hsl(300, 69%, 71%);
+    color: white;
+    padding: 14px 80px;
+ 
+}
+i:hover{
+    color:hsl(300, 69%, 71%) ;
+
+
+}
